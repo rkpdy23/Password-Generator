@@ -44,7 +44,7 @@ def main():
             length = 3
         passwordLengths.append(length)
     
-    Password = generatePassword(passwordLengths)
+        Password = generatePassword(passwordLengths)
 
     for i in range(numPasswords):
         print ("Password #"+str(i+1)+" = " + Password[i])
